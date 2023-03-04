@@ -17,5 +17,9 @@
 | /lockdin/:id | PUT | updates a specific post based on the ID |
 | /lockdin/:id | DELETE | deletes a post entry |
 
-#### *Extras*
-***
+**USER**
+| Endpoint | Method | Description |
+| -------- | ------ | ----------- |
+| /signup | POST | creates new user |
+| /login | POST | checks login credentials and logs user in |
+| /logout | GET | destroys user session |
